@@ -1,0 +1,54 @@
+* Set background image of the school */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* replace `school.jpg` with the actual file name of your image */
+  background-image: url("https://www.legat.com/project/john-hancock-college-preparatory-high-school/");
+  /* get background image from a url */
+
+  background-size: cover;
+  background-position: center;
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);       /* change this color if you want */
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* Center the table */
+table {
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.541);   /* table background color */
+  border-collapse: collapse;
+  min-width: 400px;
+  max-width: 1000px;
+}
+
+/* Borders for table, header, and data cells */
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Table header styling */
+th {
+  padding: 10px;
+  background-color: #e7c35588;
+}
+
+/* Table cell styling */
+td {
+  padding: 8px 12px;
+  text-align: left;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;       /* change this color if you want */
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<body style="background-image:url(https://m.media-amazon.com/images/I/81sBKBIcwvL._UF1000,1000_QL80_.jpg);
+    
+    background-position: center; 
+ background-repeat: no-repeat; 
+  background-size: cover;
+<html lang="en">
+    <h1>The Beatles</h1>
+    <h2>Luis Azpeitia</h2>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Site</title>
+    <style>
+        table, th, td, {
+            border: 1px solid rgb(255, 255, 255);
+            
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+            
+        }
+        h1{
+            color: rgb(0, 255, 0);
+        }
+        h2{
+            color: rgb(0, 0, 0);
+        }
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <!-- create table tags -->
+<table>
+    
+    <tr>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>Short biography about The Beatles:</td>
+        <td>The Beatles were an iconic English rock band from Liverpool, formed in 1960, featuring John Lennon, Paul McCartney, George Harrison, and Ringo Starr</td>
+    </tr>
+    <tr>
+        <td>Months on tour: June
+        <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/yesterday/1441164805"></iframe>
+    </tr>
+    <tr>
+        <td>Songs:</td>
+        <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/yellow-submarine/1441164526"></iframe></td>
+        
+    </tr>
+    <tr>
+        <td>Sign up for latests news:</td>
+        <td><div class="signup-form">
+    <form>
+      <label>First Name: <input type="text" name="firstName"></label><br>
+      <label>Last Name: <input type="text" name="lastName"></label><br>
+      <label>Email: <input type="email" name="email"></label><br>
+      <label>Date of Birth: <input type="date" name="dob"></label><br>
+      <label>Username: <input type="text" name="username"></label><br>
+      <label>Password: <input type="password" name="password"></label><br>
+      <label>Retype Password: <input type="password" name="retypePassword"></label><br>
+      <label>Age:
+        <select name="age">
+          <!-- Age options 10–100 -->
+          <script>
+            for (let i = 10; i <= 100; i++) {
+              document.write(`<option value="${i}">${i}</option>`);
+            }
+          </script>
+        </select>
+      </label><br>
+      <label>Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+      </label><br>
+      <label>Country of Origin:
+        <select name="country">
+          <!-- Paste country list from line 1 to 248 here -->
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Canada</option>
+          <!-- Add more countries -->
+        </select>
+      </label><br>
+      <label>Why are you the biggest fan?<br>
+        <textarea name="fanReason" rows="4" cols="50"></textarea>
+      </label><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div></td> 
+    </tr>
+    
+</table>
+
+
+
+</body>
